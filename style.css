@@ -154,7 +154,7 @@ a img{
       bottom: 16px;
     }
 
-.testorange-be-together-section {
+.testorange-hero-section {
   position: relative;
   height: 580px;
   width: auto;
@@ -185,14 +185,13 @@ a img{
   padding-top: 400px;
 }
 
-.testorange-screen-section {
+.testorange-flag-section {
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 .testorange-screens {
-  text-align: right;
+  text-align: left;
   width: 100%;
   white-space: nowrap;
   overflow-x: auto;
@@ -218,7 +217,7 @@ a img{
   margin-right: 32px;
 }
 
-  .testorange-wear .testorange-screen-image {
+  .testorange-wear .testorange-flag-image {
     width: 40%;
     z-index: 1;
   }
@@ -230,7 +229,7 @@ a img{
   margin-right: 48px;
 }
 
-  .testorange-phone .testorange-screen-image {
+  .testorange-phone .testorange-flag-image {
     width: 100%;
     z-index: 1;
   }
@@ -242,7 +241,7 @@ a img{
   margin-right: 64px;
 }
 
-  .testorange-tablet .testorange-screen-image {
+  .testorange-tablet .testorange-flag-image {
     width: 100%;
     z-index: 1;
   }
@@ -259,41 +258,38 @@ a img{
   margin-right: 80px;
 }
 
-  .testorange-tv .testorange-screen-image {
+  .testorange-tv .testorange-flag-image {
     width: 100%;
     z-index: 1;
   }
 
 
-.testorange-auto {
+.testorange-flag {
   display: inline-block;
-  width: 300px;
-  overflow: hidden;
+  width: 380px;
 }
 
-  .testorange-auto .testorange-screen-image {
+  .testorange-flag .testorange-flag-image {
     display: block;
     height: 300px;
     z-index: 1;
   }
 
 
-.testorange-wear-section {
+.testorange-main-target {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
-  background-size: cover;
   height: 180px;
 }
 
-.testorange-wear-band {
+.testorange-main-target-box {
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #37474f;
+  background-color: #424242;
 }
 
-.testorange-wear-band-text {
+.testorange-main-target-box-text {
   max-width: 800px;
   margin-left: 25%;
   padding: 24px;
@@ -301,7 +297,7 @@ a img{
   color: white;
 }
 
-  .testorange-wear-band-text p {
+  .testorange-main-target-box-text p {
     padding-top: 8px;
   }
 
@@ -322,7 +318,7 @@ a img{
 
 .testorange-alt-link {
   text-decoration: none;
-  color: #64ffda !important;
+  color: orange !important;
   font-size: 16px;
 }
 
@@ -335,41 +331,55 @@ a img{
     top: 6px;
   }
 
-.testorange-customized-section {
+.testorange-map-section {
   text-align: center;
+  position: relative;
+  height: 620px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/orange-map.png') center 30% no-repeat;
+  background-size: cover;
 }
 
-.testorange-customized-section-text {
+.testorange-map-section-text {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding: 80px 16px 0 16px;
+    background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60); 
+
 }
 
-  .testorange-customized-section-text p {
+.testorange-map-section-text p {
+  font-weight: bold;
+  color: #000000;
+}
+
+  .testorange-map-section-text p {
     padding-top: 16px;
   }
 
-.testorange-customized-section-image {
+.testorange-map-section-image {
   background: url('images/devices.jpg') center top no-repeat;
   background-size: cover;
   height: 400px;
 }
 
-.testorange-more-section {
-  padding: 80px 0;
+.testorange-fact-section {
+  padding: 40px 0;
   max-width: 1044px;
   margin-left: auto;
   margin-right: auto;
 }
 
-  .testorange-more-section .testorange-section-title {
+  .testorange-fact-section .testorange-section-title {
     margin-left: 12px;
     padding-bottom: 24px;
   }
 
-.testorange-card-container {
-}
+
 
   .testorange-card-container .mdl-card__media {
     overflow: hidden;
@@ -454,7 +464,7 @@ a img{
   .testorange-mobile-title {
     display: block !important;
     position: absolute;
-    left: calc(50% - 70px);
+    left: calc(44% - 70px);
     top: 12px;
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -479,7 +489,7 @@ a img{
     width: 100%;
   }
 
-  .testorange-be-together-section {
+  .testorange-hero-section {
     height: 350px;
   }
 
@@ -508,7 +518,7 @@ a img{
     display: none;
   }
 
-  .testorange-wear-band-text {
+  .testorange-main-target-box-text {
     margin-left: 0;
     padding: 16px;
   }
@@ -541,4 +551,51 @@ a img{
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
+}
+
+.table-section {
+    padding: 5% 25%;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+}
+
+.orange-table {
+    align-content: center;
+}
+
+.testorange-identify-section {
+  padding: 40px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testorange-identify-section .testorange-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+}
+
+.demo-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: url('images/apple-fruit.jpg') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.box-size {
+    width: inherit;
+}
+
+.img-box {
+    margin: 20px 20px;
 }
