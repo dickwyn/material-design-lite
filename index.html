@@ -1,21 +1,293 @@
-<!DOCTYPE html>
+
+<!doctype html>
+
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <link rel="icon" href="#">
-    <title>testorange</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
 
-    <!-- Material Design Lite -->
-    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'/>
-    <link href='mdl/material.min.css' rel='stylesheet'/>
-    
-    <!-- Custom styles for this template -->
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="mdl/material.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
   </head>
   <body>
-    <p>Hello World</p>
-    <!-- Material Design Lite core JavaScript -->
-    <script defer='' src='mdl/material.min.js'/>
+      
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          
+        <div class="testorange-header mdl-layout__header mdl-layout__header--waterfall">
+            <div class="mdl-layout__header-row">
+                <span class="testorange-title mdl-layout-title">
+                    <img class="testorange-logo-image" src="images/test-orange-logo-long-special.png">
+                </span>
+                <div class="testorange-header-spacer mdl-layout-spacer"></div>
+                <div class="testorange-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                        <input class="mdl-textfield__input" type="text" id="search-field">
+                    </div>
+                </div>
+                <div class="testorange-navigation-container">
+                    <nav class="testorange-navigation mdl-navigation">
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#">Blog</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#">About</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#">Contact</a>
+                    </nav>
+                </div>
+                <span class="testorange-mobile-title mdl-layout-title">
+                    <img class="testorange-logo-image" src="images/test-orange-logo-long-special.png">
+                </span>
+            </div>
+        </div>
+
+        <div class="testorange-drawer mdl-layout__drawer">
+            <span class="mdl-layout-title">
+            <img class="testorange-logo-image" src="images/test-orange-logo-long-special.png">
+            </span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Phones</a>
+                <a class="mdl-navigation__link" href="">Tablets</a>
+                <a class="mdl-navigation__link" href="">Wear</a>
+                <a class="mdl-navigation__link" href="">TV</a>
+                <a class="mdl-navigation__link" href="">Auto</a>
+                <a class="mdl-navigation__link" href="">One</a>
+                <a class="mdl-navigation__link" href="">Play</a>
+                <div class="testorange-drawer-separator"></div>
+                <span class="mdl-navigation__link" href="">Versions</span>
+                <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
+                <a class="mdl-navigation__link" href="">KitKat 4.4</a>
+                <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
+                <a class="mdl-navigation__link" href="">Android history</a>
+                <div class="testorange-drawer-separator"></div>
+                <span class="mdl-navigation__link" href="">Resources</span>
+                <a class="mdl-navigation__link" href="">Official blog</a>
+                <a class="mdl-navigation__link" href="">Android on Google+</a>
+                <a class="mdl-navigation__link" href="">Android on Twitter</a>
+                <div class="testorange-drawer-separator"></div>
+                <span class="mdl-navigation__link" href="">For developers</span>
+                <a class="mdl-navigation__link" href="">App developer resources</a>
+                <a class="mdl-navigation__link" href="">Android Open Source Project</a>
+                <a class="mdl-navigation__link" href="">Android SDK</a>
+            </nav>
+        </div>
+
+        <div class="testorange-content mdl-layout__content">
+            <a name="top"></a>
+            
+            <div class="testorange-be-together-section mdl-typography--text-center">
+                <div class="logo-font testorange-slogan">welcome to the orange world</div>
+                <div class="logo-font testorange-sub-slogan">orange, orange and more orange</div>
+            </div>
+            
+            <div class="testorange-wear-section">
+                <div class="testorange-wear-band">
+                    <div class="testorange-wear-band-text">
+                        <div class="mdl-typography--display-2 mdl-typography--font-thin">The ripe place</div>
+                        <p class="mdl-typography--headline mdl-typography--font-thin">
+                            Oranges are rich with Vitamin C and is healthier than apples
+                        </p>
+                        <p>
+                            <a class="mdl-typography--font-regular mdl-typography--text-uppercase testorange-alt-link" href="">
+                                Learn more&nbsp;<i class="material-icons">chevron_right</i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testorange-screen-section mdl-typography--text-center">
+                <a name="screens"></a>
+                <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
+                <div class="testorange-screens">
+                    <div class="testorange-wear testorange-screen">
+                        <a class="testorange-image-link" href="">
+                            <img class="testorange-screen-image" src="images/wear-silver-on.png">
+                            <img class="testorange-screen-image" src="images/wear-black-on.png">
+                        </a>
+                        <a class="testorange-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
+                    </div>
+                    <div class="testorange-phone testorange-screen">
+                        <a class="testorange-image-link" href="">
+                            <img class="testorange-screen-image" src="images/nexus6-on.jpg">
+                        </a>
+                        <a class="testorange-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
+                    </div>
+                    <div class="testorange-tablet testorange-screen">
+                        <a class="testorange-image-link" href="">
+                            <img class="testorange-screen-image" src="images/nexus9-on.jpg">
+                        </a>
+                        <a class="testorange-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
+                    </div>
+                    <div class="testorange-tv testorange-screen">
+                        <a class="testorange-image-link" href="">
+                            <img class="testorange-screen-image" src="images/tv-on.jpg">
+                        </a>
+                        <a class="testorange-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
+                    </div>
+                    <div class="testorange-auto testorange-screen">
+                        <a class="testorange-image-link" href="">
+                            <img class="testorange-screen-image" src="images/auto-on.jpg">
+                        </a>
+                        <a class="testorange-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testorange-customized-section">
+                <div class="testorange-customized-section-text">
+                    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
+                    <p class="mdl-typography--font-light">
+                        Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.<br>
+                        <a href="" class="testorange-link mdl-typography--font-light">Customise your phone</a>
+                    </p>
+                </div>
+                <div class="testorange-customized-section-image"></div>
+            </div>
+
+            <div class="testorange-more-section">
+                <div class="testorange-section-title mdl-typography--display-1-color-contrast">More from Android</div>
+                <div class="testorange-card-container mdl-grid">
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                        <div class="mdl-card__media">
+                            <img src="images/more-from-1.png">
+                        </div>
+                        <div class="mdl-card__title">
+                            <h4 class="mdl-card__title-text">Get going on Android</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a class="testorange-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                                Make the switch
+                                <i class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                        <div class="mdl-card__media">
+                            <img src="images/more-from-4.png">
+                        </div>
+                        <div class="mdl-card__title">
+                            <h4 class="mdl-card__title-text">Create your own Android character</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a class="testorange-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                                androidify.com
+                                <i class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                        <div class="mdl-card__media">
+                            <img src="images/more-from-2.png">
+                        </div>
+                        <div class="mdl-card__title">
+                            <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
+                        </div>
+                        <div class="mdl-card__actions">
+                        <a class="testorange-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                            Download now
+                            <i class="material-icons">chevron_right</i>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                        <div class="mdl-card__media">
+                            <img src="images/more-from-3.png">
+                        </div>
+                        <div class="mdl-card__title">
+                            <h4 class="mdl-card__title-text">Millions to choose from</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a class="testorange-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                                Find apps
+                                <i class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="testorange-footer mdl-mega-footer">
+                <div class="mdl-mega-footer--top-section">
+                    <div class="mdl-mega-footer--left-section">
+                        <a class="social" href ="http://dickwyn.xyz/" target="_blank">
+                            <i class="fa fa-github-square fa-3x"></i>
+                        </a>
+                        &nbsp;
+                        <a class="social" href ="http://dickwyn.xyz/" target="_blank">
+                            <i class="fa fa-twitter-square fa-3x"></i>
+                        </a>
+                        &nbsp;
+                        <a class="social" href ="http://dickwyn.xyz/" target="_blank">
+                            <i class="fa fa-snapchat-square fa-3x"></i>
+                        </a>
+                    </div>
+                    <div class="mdl-mega-footer--right-section">
+                        <a class="mdl-typography--font-light" href="#top">
+                            Back to Top
+                            <i class="material-icons">expand_less</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="mdl-mega-footer--middle-section">
+                    <p>Overdosing oranges may pose a health risk</p>
+                    <i class="fa fa-copyright" href="dickwyn.xyz"></i> 2016 Megapower Tech Network
+                </div>
+                <div class="mdl-mega-footer--bottom-section">                
+                    <a class="testorange-link testorange-link-menu mdl-typography--font-light" id="site-dropdown">
+                        Our Sites <i class="fa fa-caret-up" ></i>
+                    </a>
+                    <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="site-dropdown">
+                        <li class="mdl-menu__item">Orange Daily</li>
+                        <li class="mdl-menu__item">The Orange</li>
+                        <li class="mdl-menu__item">Orange Press</li>
+                        <li class="mdl-menu__item">Orangly</li>
+                    </ul>
+                    <a class="testorange-link testorange-link-menu mdl-typography--font-light" id="about-dropdown">
+                        About <i class="fa fa-caret-up" ></i>
+                    </a>
+                    <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="about-dropdown">
+                        <li class="mdl-menu__item">Watermelons</li>
+                        <li class="mdl-menu__item">Apples</li>
+                        <li class="mdl-menu__item">Oranges</li>
+                    </ul>
+                    <a class="testorange-link mdl-typography--font-light" href="#">Contact</a>
+                    <a class="testorange-link mdl-typography--font-light" href="#">Privacy</a>
+                </div>
+            </footer>
+        </div>
+        
+    </div>
+    <a href="#" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--blue mdl-color-text--accent-contrast">View Source</a>
+    <script src="mdl/material.min.js"></script>
   </body>
 </html>
