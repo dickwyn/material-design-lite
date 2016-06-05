@@ -210,33 +210,46 @@
 .testorange-main-target-box-text p {
     padding-top: 8px;
 }
-.testorange-identify-section {
+.testorange-article-section {
     padding: 40px 0;
     max-width: 1044px;
     margin-left: auto;
     margin-right: auto;
 }
-.testorange-identify-section .testorange-section-title {
-    margin-left: 12px;
-    padding-bottom: 24px;
+.quote {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FF9800 !important;
+    font-size: 2em !important;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
 }
-.img-box {
-    margin: 20px 20px;
+.article-image {
+    display: block;
+    align-content: center;
+    max-width: 1028px;
+    padding-bottom: 20px;
+    margin-left: -18px;
 }
-.demo-card-image.mdl-card {
-    width: 256px;
-    height: 256px;
-    background: url('images/apple-fruit.jpg') center / cover;
+.testorange-article-section .mdl-card__supporting-text {
+    width: 100%;
 }
-.demo-card-image > .mdl-card__actions {
-    height: 52px;
-    padding: 16px;
-    background: rgba(0, 0, 0, 0.2);
+.testorange-article-section .mdl-card__supporting-text p {
+    margin-right: 60px;
+    margin-left: 25px;
+    font-size: 1.2em;
+    color: #727272;
 }
-.demo-card-image__filename {
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 500;
+.testorange-article-section .mdl-card__supporting-text .date {
+    font-size: 0.8em;
+    color: #727272;
+}
+.post-button {
+    margin-top: 20px;
+}
+.comments {
+    background-color: #FFCCBC;
 }
 .testorange-map-section {
     text-align: center;
@@ -289,46 +302,11 @@
 .testorange-image-link {
     text-decoration: none;
 }
-.testorange-article-section {
+.fruit-table {
     padding: 40px 0;
     max-width: 1044px;
     margin-left: auto;
     margin-right: auto;
-}
-.quote {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #FF9800 !important;
-    font-size: 2em !important;
-    font-style: italic;
-    text-align: center;
-    text-transform: uppercase;
-}
-.article-image {
-    display: block;
-    align-content: center;
-    max-width: 1028px;
-    padding-bottom: 20px;
-    margin-left: -18px;
-}
-.testorange-article-section .mdl-card__supporting-text {
-    width: 100%;
-}
-.testorange-article-section .mdl-card__supporting-text p {
-    margin-right: 60px;
-    margin-left: 25px;
-    font-size: 1.2em;
-    color: #727272;
-}
-.testorange-article-section .mdl-card__supporting-text .date {
-    font-size: 0.8em;
-    color: #727272;
-}
-.post-button {
-    margin-top: 20px;
-}
-.comments {
-    background-color: #FFCCBC;
 }
 
 
