@@ -40,6 +40,7 @@
 .testorange-logo-image {
     height: 28px;
     width: 240px;
+    margin-left: -38px;
 }
 .testorange-mobile-title {
     display: none !important;
@@ -101,30 +102,6 @@
 .testorange-search-box.is-focused + .testorange-navigation-container {
     opacity: 0;
     width: 100px;
-}
-.testorange-drawer {
-    border-right: none;
-}
-.testorange-drawer-separator {
-    height: 1px;
-    background-color: #FFCCBC;
-    margin: 8px 0;
-}
-.testorange-drawer .mdl-navigation__link.mdl-navigation__link {
-    font-size: 14px;
-    color: #727272;
-}
-.testorange-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: #E64A19;
-}
-.testorange-drawer .mdl-layout-title {
-    position: relative;
-    background: #FF5722;
-    height: 80px;
-}
-.testorange-drawer .testorange-logo-image {
-    position: absolute;
-    bottom: 16px;
 }
 
 /*sections*/
@@ -352,7 +329,7 @@
     .testorange-mobile-title {
         display: block !important;
         position: absolute;
-        left: calc(42% - 70px);
+        left: calc(48% - 70px);
         top: 12px;
         transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
