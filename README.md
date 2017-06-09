@@ -4,7 +4,7 @@
 <li>Material Design Lite</li>
 <li>Font Awesome</i>
 
-Learn more <a href="http://on.dickwyn.xyz/testorange-0106">here</a>
+View demo <a href="http://testorange0106.dickwyn.xyz/">here</a>
 <hr>
 based on android.com mdl skin<br>
 Brand names, logos and trademarks used herein remain the property of their respective owners.
